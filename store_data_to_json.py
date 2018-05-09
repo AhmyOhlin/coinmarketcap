@@ -23,3 +23,44 @@ def store_data_to_json():
         feedjson.write('\n')
 
 store_data_to_json()
+
+                                                           #Output:                                      
+#{
+#    "all_coins": [
+#        {
+#            "id": "bitcoin",
+#            "name": "Bitcoin",
+#            "symbol": "BTC",
+#            "rank": "1",
+#            "price_usd": "9295.14",
+#            "price_btc": "1.0",
+#            "24h_volume_usd": "7307120000.0",
+#            "market_cap_usd": "158238483495",
+#            "available_supply": "17023787.0",
+#            "total_supply": "17023787.0",
+#            "max_supply": "21000000.0",
+#            "percent_change_1h": "0.64",
+#            "percent_change_24h": "0.99",
+#            "percent_change_7d": "1.59",
+#            "last_updated": "1525868972",
+#            "cached": false
+#        },
+#        {
+#            "id": "bitcoin",
+#            "name": "Bitcoin",
+#            "symbol": "BTC",
+#            "rank": "1",
+#            "price_usd": "9295.14",
+#            "price_btc": "1.0",
+#            "24h_volume_usd": "7307120000.0",
+#            "market_cap_usd": "158238483495",
+#            "available_supply": "17023787.0",
+#            "total_supply": "17023787.0",
+#            "max_supply": "21000000.0",
+#            "percent_change_1h": "0.64",
+#            "percent_change_24h": "0.99",
+#            "percent_change_7d": "1.59",
+#            "last_updated": "1525868972",
+#            "cached": true
+#        },
+# ......
